@@ -3,7 +3,7 @@ from pass_gen import gen_password
 from coin_drop import drop_coin
 # Замени 'TOKEN' на токен твоего бота
 # Этот токен ты получаешь от BotFather, чтобы бот мог работать
-bot = telebot.TeleBot("8499634467:AAFqep3BfbglLwCORwtmW4iEMoVYh6R1oLc")
+bot = telebot.TeleBot("")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
