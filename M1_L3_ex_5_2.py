@@ -6,4 +6,3 @@ def drop_coin():
   else:
     coin = "Решка"
   print(coin)
-drop_coin()
