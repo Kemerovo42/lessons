@@ -5,4 +5,4 @@ def drop_coin():
         coin = "Орёл"
     else:
         coin = "Решка"
-    print(coin)
+    print("Выпала сторона:",coin)
