@@ -5,3 +5,5 @@ def drop_coin():
     coin = "Орёл"
   else:
     coin = "Решка"
+  print(coin)
+drop_coin()
